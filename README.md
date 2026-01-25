@@ -1,4 +1,15 @@
-# Grounding vs. Compositionality in Logic Tensor Networks
+# Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-green)](https://www.python.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-blue)](https://numpy.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-blue)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-purple)](https://matplotlib.org/)
+[![scikit-image](https://img.shields.io/badge/scikit--image-0.18%2B-red)](https://scikit-image.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24%2B-red)](https://scikit-learn.org/)
+[![tqdm](https://img.shields.io/badge/tqdm-4.62%2B-pink)](https://tqdm.github.io/)
+[![PyYAML](https://img.shields.io/badge/PyYAML-5.4%2B-orange)](https://pyyaml.org/)
+
 
 A research project exploring the relationship between **perceptual grounding** and **compositional reasoning** in neural-symbolic systems, using constraint-based iterative refinement on logic puzzles (Sudoku and KenKen).
 
@@ -14,7 +25,7 @@ The key research question: *Can neural networks learn compositional reasoning th
 
 ## Key Components
 
-### 🧠 Models
+### Models
 
 - **LTN (Logic Tensor Network)**: Pure grounding baseline
   - Direct visual perception with CNN backbone
@@ -27,7 +38,7 @@ The key research question: *Can neural networks learn compositional reasoning th
   - Gumbel-Softmax for discrete sampling
   - Optional halting head for early stopping
 
-### 📊 Datasets
+### Datasets
 
 - **Entity Composition**: Train on digit sets {0-4}, test on {5-9}
   - Tests compositional generalization to unseen entities
@@ -40,7 +51,7 @@ The key research question: *Can neural networks learn compositional reasoning th
   - Sudoku (easy, moderate, hard)
   - KenKen (easy, moderate, hard)
 
-### 🔧 Training
+### Training
 
 - **Trainer**: Unified training pipeline with support for:
   - Multiple model architectures
@@ -52,7 +63,7 @@ The key research question: *Can neural networks learn compositional reasoning th
   - Logic loss (constraint satisfaction)
   - Combined multi-task learning
 
-### 📈 Evaluation
+### Evaluation
 
 - **Symbol Accuracy**: Per-cell correctness on solution grid
 - **Constraint Satisfaction**: Ratio of satisfied constraints
@@ -132,11 +143,11 @@ python evaluation/eval_rule_comp.py --model iltn --split test
 
 ## Key Features
 
-✨ **Iterative Refinement**: Multi-step constraint satisfaction through inner optimization  
-✨ **Fuzzy Logic**: Continuous relaxation of logical constraints  
-✨ **Compositionality Tests**: Multiple generalization scenarios (entities, relations, rules)  
-✨ **Flexible Architecture**: Pluggable perception backbones and constraint sets  
-✨ **Production Ready**: Fully documented, tested evaluation pipeline  
+**Iterative Refinement**: Multi-step constraint satisfaction through inner optimization  
+**Fuzzy Logic**: Continuous relaxation of logical constraints  
+**Compositionality Tests**: Multiple generalization scenarios (entities, relations, rules)  
+**Flexible Architecture**: Pluggable perception backbones and constraint sets  
+**Production Ready**: Fully documented, tested evaluation pipeline  
 
 ## Configuration
 
@@ -174,11 +185,11 @@ training:
 
 ## Experiments
 
-- ✅ Entity composition: Unseen digit generalization
-- ✅ Relational composition: Unseen constraint patterns
-- ✅ Rule composition: Combinations of reasoning rules
-- ✅ Ablation studies on refinement iterations
-- ✅ Analysis of grounding-reasoning trade-offs
+- Entity composition: Unseen digit generalization
+- Relational composition: Unseen constraint patterns
+- Rule composition: Combinations of reasoning rules
+- Ablation studies on refinement iterations
+- Analysis of grounding-reasoning trade-offs
 
 ## Visualization
 
@@ -190,23 +201,28 @@ python viz/fig_entity_composition.py
 
 ## Citation
 
-If you use this code in your research, please cite:
+If you use this project in academic research, please cite:
 
 ```bibtex
 @article{grounding_vs_compositionality,
-  title={Grounding vs. Compositionality: Investigating Generalization in Neural-Symbolic Systems},
-  year={2024}
+  title={Grounding vs. Compositionalityy: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems},
+  author={Mahnoor Shahid & Hannes Rothe},
+  institution={University of Duisburg-Essen},
+  year={2025},
 }
 ```
 
 ## License
 
-[Add your license here]
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
+```
+MIT License - Feel free to use, modify, and distribute
+Academic use encouraged - Please cite our work
+Commercial use welcome - Attribution appreciated
+```
 
-## Contact
+## Support
 
-[Add your contact information]
+For questions, suggestions, or collaboration opportunities, feel free to reach out. 
 
----
 
-**Built with ❤️ for neural-symbolic research**
