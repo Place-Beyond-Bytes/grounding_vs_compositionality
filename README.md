@@ -5,7 +5,6 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.21%2B-blue)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-1.3%2B-blue)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4%2B-purple)](https://matplotlib.org/)
-[![scikit-image](https://img.shields.io/badge/scikit--image-0.18%2B-red)](https://scikit-image.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-0.24%2B-red)](https://scikit-learn.org/)
 [![tqdm](https://img.shields.io/badge/tqdm-4.62%2B-pink)](https://tqdm.github.io/)
 [![PyYAML](https://img.shields.io/badge/PyYAML-5.4%2B-orange)](https://pyyaml.org/)
