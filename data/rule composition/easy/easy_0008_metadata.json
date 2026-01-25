@@ -1,0 +1,242 @@
+{
+  "puzzle_info": {
+    "id": "easy_0008",
+    "difficulty": "easy",
+    "validation_status": "VALID",
+    "generated_timestamp": "2025-07-11T11:57:19.562397"
+  },
+  "grids": {
+    "puzzle_grid": [
+      [
+        4,
+        7,
+        5,
+        0,
+        2,
+        3,
+        0,
+        6,
+        1
+      ],
+      [
+        1,
+        0,
+        2,
+        0,
+        0,
+        6,
+        0,
+        0,
+        3
+      ],
+      [
+        0,
+        6,
+        0,
+        0,
+        4,
+        0,
+        0,
+        7,
+        2
+      ],
+      [
+        2,
+        0,
+        0,
+        3,
+        0,
+        0,
+        7,
+        0,
+        5
+      ],
+      [
+        8,
+        0,
+        9,
+        0,
+        0,
+        7,
+        0,
+        0,
+        6
+      ],
+      [
+        7,
+        4,
+        0,
+        0,
+        6,
+        0,
+        0,
+        9,
+        8
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        6,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        8,
+        4,
+        6,
+        5,
+        1,
+        2,
+        0,
+        7
+      ]
+    ],
+    "solution_grid": [
+      [
+        4,
+        7,
+        5,
+        9,
+        2,
+        3,
+        8,
+        6,
+        1
+      ],
+      [
+        1,
+        9,
+        2,
+        8,
+        7,
+        6,
+        4,
+        5,
+        3
+      ],
+      [
+        3,
+        6,
+        8,
+        1,
+        4,
+        5,
+        9,
+        7,
+        2
+      ],
+      [
+        2,
+        1,
+        6,
+        3,
+        9,
+        8,
+        7,
+        4,
+        5
+      ],
+      [
+        8,
+        5,
+        9,
+        4,
+        1,
+        7,
+        3,
+        2,
+        6
+      ],
+      [
+        7,
+        4,
+        3,
+        5,
+        6,
+        2,
+        1,
+        9,
+        8
+      ],
+      [
+        5,
+        2,
+        1,
+        7,
+        3,
+        9,
+        6,
+        8,
+        4
+      ],
+      [
+        6,
+        3,
+        7,
+        2,
+        8,
+        4,
+        5,
+        1,
+        9
+      ],
+      [
+        9,
+        8,
+        4,
+        6,
+        5,
+        1,
+        2,
+        3,
+        7
+      ]
+    ]
+  },
+  "strategies": {
+    "required_strategies": [
+      "naked_single",
+      "hidden_single_box"
+    ],
+    "strategy_details": {
+      "naked_single": {
+        "name": "naked_single",
+        "description": "Apply naked_single"
+      },
+      "hidden_single_box": {
+        "name": "hidden_single_box",
+        "description": "Apply hidden_single_box"
+      }
+    }
+  },
+  "files": {
+    "puzzle_image": "easy_0008_puzzle.png",
+    "solution_image": "easy_0008_solution.png",
+    "puzzle_image_path": "D:\\classic_games\\game_projects\\sudoku\\output\\images\\validated_mnist_sudoku_easy\\easy_0008_puzzle.png",
+    "solution_image_path": "D:\\classic_games\\game_projects\\sudoku\\output\\images\\validated_mnist_sudoku_easy\\easy_0008_solution.png"
+  },
+  "statistics": {
+    "total_cells": 81,
+    "filled_cells": 38,
+    "empty_cells": 43,
+    "fill_percentage": 46.9,
+    "difficulty_score": 1.0,
+    "generation_attempt": 9
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "puzzle_id": "puzzle_0032",
+  "puzzle_grid": [
+    [
+      -1,
+      -1,
+      2,
+      1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      5,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      2,
+      1,
+      3,
+      5
+    ],
+    [
+      2,
+      3,
+      -1,
+      -1,
+      1
+    ],
+    [
+      5,
+      1,
+      -1,
+      -1,
+      -1
+    ]
+  ],
+  "solution_grid": [
+    [
+      3,
+      5,
+      2,
+      1,
+      4
+    ],
+    [
+      1,
+      4,
+      5,
+      2,
+      3
+    ],
+    [
+      4,
+      2,
+      1,
+      3,
+      5
+    ],
+    [
+      2,
+      3,
+      4,
+      5,
+      1
+    ],
+    [
+      5,
+      1,
+      3,
+      4,
+      2
+    ]
+  ],
+  "metadata": {
+    "id": "puzzle_0032",
+    "difficulty": "unvalidated",
+    "grid_size": 5,
+    "filled_cells": 12,
+    "empty_cells": 13,
+    "completion_percentage": 48.0,
+    "generation_timestamp": 1752438489.937865,
+    "digit_set": "1-5",
+    "original_digit_set": "0-4"
+  }
+}

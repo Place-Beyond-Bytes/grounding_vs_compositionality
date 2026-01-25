@@ -1,0 +1,37 @@
+
+seed: 42
+
+dataset:
+  name: entity_composition
+  root: data/entity_composition
+  split: test
+  image_size: 84
+  grid_size: 5
+  train_digits: [0,1,2,3,4]
+  test_digits: [5,6,7,8,9]
+
+training:
+  epochs: 100
+  batch_size: 16
+  optimizer: adamw
+  lr: 1.0e-4
+  betas: [0.9, 0.999]
+  weight_decay: 0.01
+  warmup_epochs: 10
+  use_cosine_decay: true
+
+model:
+  embedding_dim: 64
+  iltn:
+    T_min: 5
+    T_max: 20
+    gamma: 0.98
+    inner_k: 3
+    inner_lr: 0.1
+    gumbel_tau_start: 1.0
+    gumbel_tau_end: 0.1
+    gumbel_anneal_epochs: 50
+    use_halting: false
+
+paths:
+  outputs: outputs

@@ -1,0 +1,102 @@
+{
+  "puzzle_info": {
+    "id": "unvalidated_0_4_0027",
+    "difficulty": "unvalidated",
+    "validation_status": true,
+    "generated_timestamp": null
+  },
+  "grids": {
+    "puzzle_grid": [
+      [
+        -1,
+        -1,
+        3,
+        2,
+        4
+      ],
+      [
+        -1,
+        3,
+        0,
+        -1,
+        2
+      ],
+      [
+        -1,
+        -1,
+        2,
+        -1,
+        -1
+      ],
+      [
+        2,
+        0,
+        -1,
+        4,
+        3
+      ],
+      [
+        -1,
+        -1,
+        -1,
+        -1,
+        1
+      ]
+    ],
+    "solution_grid": [
+      [
+        0,
+        1,
+        3,
+        2,
+        4
+      ],
+      [
+        4,
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        4,
+        2,
+        3,
+        0
+      ],
+      [
+        2,
+        0,
+        1,
+        4,
+        3
+      ],
+      [
+        3,
+        2,
+        4,
+        0,
+        1
+      ]
+    ]
+  },
+  "strategies": {
+    "required_strategies": [],
+    "strategy_details": {}
+  },
+  "files": {
+    "puzzle_image": "unvalidated_0_4_0027_puzzle.png",
+    "solution_image": "unvalidated_0_4_0027_solution.png",
+    "puzzle_image_path": "D:\\classic_games\\game_projects\\sudoku_5x5\\images\\0_4_unvalidated\\unvalidated_0_4_0027_puzzle.png",
+    "solution_image_path": "D:\\classic_games\\game_projects\\sudoku_5x5\\images\\0_4_unvalidated\\unvalidated_0_4_0027_solution.png"
+  },
+  "statistics": {
+    "total_cells": 25,
+    "filled_cells": 12,
+    "empty_cells": 13,
+    "fill_percentage": 48.0,
+    "difficulty_score": null,
+    "generation_attempt": null
+  }
+}
